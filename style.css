@@ -53,6 +53,43 @@ a:hover{text-decoration: none; cursor:pointer;}
 	padding:20px 50px;
 }
 
+/* = Full Width Blocs 
+-------------------------------------------------------------- */
+
+.full-width-bloc{
+	padding-left:0;
+	padding-right:0;
+}
+.full-width-bloc .row{
+	margin-left:0;
+	margin-right:0;
+}
+.full-width-bloc .container{
+	width:100%;
+	max-width:100%!important;
+}
+.full-width-bloc .carousel img{
+	width:100%;
+	height:auto;
+}
+
+
+/* Background Textures */
+
+.bloc-bg-texture::before{
+	content:"";
+	background-size: 2px 2px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left:0;
+	right:0;
+}
+.texture-geometry-shapes-2::before{
+	background: url("img/texture-geometry-shapes-2.png");
+	background-size: 200px 200px;
+}
+
 
 /* Dark theme */
 
@@ -138,6 +175,12 @@ a:hover{text-decoration: none; cursor:pointer;}
 .voffset{
 	margin-top:30px;
 }
+/* Dividers */
+
+.b-divider{
+	border-top:1px solid rgba(0,0,0,.1);
+	border-bottom:1px solid rgba(0,0,0,.1);
+}
 
 
 /* = NavBar
@@ -190,6 +233,13 @@ button{
 	outline: none!important;
 }
 
+.btn-rd{
+	border-radius: 40px;
+}
+.btn-xl{
+	padding: 16px 40px;
+	font-size: 28px;
+}
 
 /* = Icons
 -------------------------------------------------------------- */
@@ -242,7 +292,7 @@ button{
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Helvetica";
-	color:#FFFFFF!important;
+	color:#000000!important;
 }
 .container{
 	max-width:1140px;
@@ -261,6 +311,24 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .img-soonstudioscho-style{
 	width:1209px;
 }
+.btn-style{
+	border-radius:25px 25px 25px 25px;
+}
+.img-ineriersou-style{
+	width:664px;
+	border-radius:0px 0px 0px 0px;
+}
+.img-3-style{
+	width:664px;
+	border-radius:0px 0px 0px 0px;
+}
+.carousel-style{
+	width:100%;
+}
+.h2-style{
+	font-family:"Josefin Sans";
+	font-weight:400;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -269,6 +337,52 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 .bgc-black{
 	background-color:#000000;
+}
+.bgc-white{
+	background-color:#FFFFFF;
+}
+.bgc-white-2{
+	background-color:#FFFFFF;
+}
+.bgc-maya-blue{
+	background-color:#6CACFF;
+}
+
+/* Text colour styles */
+
+.tc-white{
+	color:#FFFFFF!important;
+}
+.tc-white-2{
+	color:#FFFFFF!important;
+}
+
+/* Button colour styles */
+
+.btn-maya-blue{
+	background:#6CACFF;
+	color:#FFFFFF!important;
+}
+.btn-maya-blue:hover{
+	background:#568acc!important;
+	color:#FFFFFF!important;
+}
+.btn-white{
+	background:#FFFFFF;
+	color:rgba(0,0,0,.5)!important;
+}
+.btn-white:hover{
+	background:#cccccc!important;
+	color:rgba(0,0,0,.5)!important;
+}
+
+/* Link colour styles */
+
+.ltc-white{
+	color:#FFFFFF!important;
+}
+.ltc-white:hover{
+	color:#cccccc!important;
 }
 
 /* Icon colour styles */
@@ -280,6 +394,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Bloc image backgrounds */
 
+.bg-Dectabeta{
+	background-image:url("img/Dectabeta.jpg");
+}
 
 
 
