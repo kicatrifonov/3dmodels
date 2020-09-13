@@ -464,7 +464,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 @media (max-width: 991px){
 	h1,h2,h3,h4,h5,h6,p,label,.btn,a{
-		color:#FFFFFF!important;
+		color:#000000!important;
 	}
 	
 }
@@ -477,14 +477,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.text-center{
 	}
 	h1,h2,h3,h4,h5,h6,p,label,.btn,a{
-		color:#FFFFFF!important;
+		color:#000000!important;
 	}
 	
 }
 
 @media (max-width: 575px){
 	h1,h2,h3,h4,h5,h6,p,label,.btn,a{
-		color:#FFFFFF!important;
+		color:#000000!important;
 	}
 	
 }
