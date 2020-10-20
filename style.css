@@ -74,23 +74,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
-/* Background Textures */
-
-.bloc-bg-texture::before{
-	content:"";
-	background-size: 2px 2px;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left:0;
-	right:0;
-}
-.texture-geometry-shapes-2::before{
-	background: url("img/texture-geometry-shapes-2.png");
-	background-size: 200px 200px;
-}
-
-
 /* Dark theme */
 
 .d-bloc{
@@ -175,12 +158,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 .voffset{
 	margin-top:30px;
 }
-/* Dividers */
-
-.b-divider{
-	border-top:1px solid rgba(0,0,0,.1);
-	border-bottom:1px solid rgba(0,0,0,.1);
-}
 
 
 /* = NavBar
@@ -233,8 +210,17 @@ button{
 	outline: none!important;
 }
 
+.btn-sq{
+	border-radius: 0px;
+}
 .btn-rd{
 	border-radius: 40px;
+}
+.btn-clean{
+	border:1px solid rgba(0,0,0,.08);
+	border-bottom-color:rgba(0,0,0,.1);
+	text-shadow:0 1px 0 rgba(0,0,1,.1);
+	box-shadow: 0 1px 3px rgba(0,0,1,.25), inset 0 1px 0 0 rgba(255,255,255,.15);
 }
 .btn-xl{
 	padding: 16px 40px;
@@ -250,6 +236,8 @@ button{
 
 
 
+/* = Cards
+-------------------------------------------------------------- */
 .card-sq, .card-sq .card-header, .card-sq .card-footer{
 	border-radius:0;
 }
@@ -265,6 +253,10 @@ button{
 
 
 
+
+.hide-indicators{
+	display:none;
+}
 
 
 /* ScrollToTop button */
@@ -329,6 +321,27 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Josefin Sans";
 	font-weight:400;
 }
+.img-render-sr-style{
+	height:320px;
+}
+.feature-col-mt{
+	margin-top:29px;
+}
+.hero-first-col-mb{
+	margin-bottom:30px;
+}
+.p-style{
+	width:100%;
+}
+.img-hallist-style{
+	border-radius:0px 0px 0px 0px;
+}
+.img-desk1-style{
+	border-radius:0px 0px 0px 0px;
+}
+.img-design-room-style{
+	border-radius:0px 0px 0px 0px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -340,12 +353,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bgc-white{
 	background-color:#FFFFFF;
-}
-.bgc-white-2{
-	background-color:#FFFFFF;
-}
-.bgc-maya-blue{
-	background-color:#6CACFF;
 }
 
 /* Text colour styles */
@@ -359,14 +366,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Button colour styles */
 
-.btn-maya-blue{
-	background:#6CACFF;
-	color:#FFFFFF!important;
-}
-.btn-maya-blue:hover{
-	background:#568acc!important;
-	color:#FFFFFF!important;
-}
 .btn-white{
 	background:#FFFFFF;
 	color:rgba(0,0,0,.5)!important;
@@ -374,6 +373,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .btn-white:hover{
 	background:#cccccc!important;
 	color:rgba(0,0,0,.5)!important;
+}
+.btn-maya-blue{
+	background:#6CACFF;
+	color:#FFFFFF!important;
+}
+.btn-maya-blue:hover{
+	background:#568acc!important;
+	color:#FFFFFF!important;
 }
 
 /* Link colour styles */
@@ -394,9 +401,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Bloc image backgrounds */
 
-.bg-Dectabeta{
-	background-image:url("img/Dectabeta.jpg");
-}
 
 
 
